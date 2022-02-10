@@ -195,6 +195,17 @@
                 },
                 {
                     "name": "",
+                    "id": "edfae0ba-4e84-4758-b90c-88a048f74a9c",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NormalFire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "60b0fa57-e4a6-42ef-8ebd-76fa6590242c",
                     "path": "<Keyboard>/leftAlt",
                     "interactions": "",
@@ -208,6 +219,17 @@
                     "name": "",
                     "id": "9989b0df-592e-464a-a211-fb8e7c840723",
                     "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpecialFire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c1e6df7d-2a6e-46e0-847c-2f06f0bbf48f",
+                    "path": "<Gamepad>/leftTrigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

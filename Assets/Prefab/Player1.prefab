@@ -407,9 +407,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: 10
   RotateSpeed: 10
+  NormalCD: 0.2
+  SpecialCD: 1.5
   IsPlayerOne: 1
   ObusNPrefab: {fileID: 9087897498788976585, guid: 0e3affdc24109794d82d15174f31e2b4, type: 3}
-  ObusSPrefab: {fileID: 0}
+  ObusSPrefab: {fileID: 6476916063565170655, guid: d0d62eeb5abfbfb4eab28ebf4980a285, type: 3}
 --- !u!114 &3463171983030343583
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -20,10 +20,15 @@ public abstract class MunitionScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))
+        if(other.GetComponent<PlayerScript>())
         {
             Effect(other.GetComponent<PlayerScript>());
         }
+        else if(other.GetComponent<ObstDestrScript>())
+        {
+            Effect(other.GetComponent<ObstDestrScript>());
+        }
+        else if(other.CompareTag("Explosion")) {return;}
         else
         {
             Destroy(gameObject);
@@ -31,4 +36,6 @@ public abstract class MunitionScript : MonoBehaviour
     }
 
     protected abstract void Effect(PlayerScript player);
+    
+    protected abstract void Effect(ObstDestrScript obstacle);
 }

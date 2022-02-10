@@ -6,7 +6,13 @@ public class MunitionNormalScript : MunitionScript
 {
     protected override void Effect(PlayerScript player)
     {
-        player.hitTaken+=Damage;
+        player.HitTaken+=Damage;
+        Destroy(gameObject);
+    }
+
+    protected override void Effect(ObstDestrScript obstacle)
+    {
+        obstacle.Pv -= Damage;
         Destroy(gameObject);
     }
 }
