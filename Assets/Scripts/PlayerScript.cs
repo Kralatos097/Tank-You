@@ -24,6 +24,14 @@ public class PlayerScript : MonoBehaviour
             _hitTakken = value;
             Debug.Log(_hitTakken);
             OnHitTaken.Invoke(_hitTakken, IsPlayerOne);
+            if(IsPlayerOne)
+            {
+                GameManager.LastHitten = 1;
+            }
+            else
+            {
+                GameManager.LastHitten = 2;
+            }
         }
     }
 
